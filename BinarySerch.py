@@ -21,10 +21,8 @@ l = [3, 4, 5, 13, 20, 21, 30, 33, 34, 35]  # Example List
 i = binary_search(l, 10, int(input("Insert number to search in the list: ")))
 
 if (i >= 0):
-    print
-    "\nElement find in position %s\n" % i
+    print("\nElement found in position %s\n" % i)
 else:
-    print
-    "Element not find!"
+    print("Element not found!")
 
 input("Press Enter to continue...")
